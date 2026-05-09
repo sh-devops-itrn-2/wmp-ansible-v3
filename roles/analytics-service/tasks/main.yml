@@ -10,7 +10,7 @@
 - name: Include pre-reqs
   ansible.builtin.include_role:
     name: common
-    tasks_from: ap-pre-req
+    tasks_from: app-pre-req
 
 - name: Install application dependencies
   ansible.builtin.shell: pip3.12 install --no-cache-dir .
