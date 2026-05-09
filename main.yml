@@ -1,0 +1,5 @@
+- name: {{ COMPONENT }} Setup
+  hosts: all
+  become: yes
+  roles:
+    - {{ COMPONENT }}
